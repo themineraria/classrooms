@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Le meilleur endroit pour apprendre, enseigner, gagner de l'argent, échanger et s'entraider.">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/classrooms-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme-charcoal.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/font-robotoslab.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-9 col-md-10 text-right">
                             <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                                <i class="icon icon--sm classrooms-interface classrooms-menu"></i>
                             </a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                                                         <a href="#" class="btn btn--primary type--uppercase">
                                                                             <span class="label">$18 USD.</span>
                                                                             <span class="btn__text">
-                                                                                Purchase Stack Now
+                                                                                Purchase classrooms Now
                                                                             </span>
                                                                         </a>
                                                                     </div>
@@ -1760,7 +1760,7 @@
         </div>
         <!--<div class="loader"></div>-->
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-            <i class="stack-interface stack-up-open-big"></i>
+            <i class="classrooms-interface classrooms-up-open-big"></i>
         </a>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/flickity.min.js"></script>
