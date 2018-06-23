@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'classrooms-interface';
+  src: url('../fonts/classrooms-interface.eot?33839631');
+  src: url('../fonts/classrooms-interface.eot?33839631#iefix') format('embedded-opentype'),
+       url('../fonts/classrooms-interface.woff2?33839631') format('woff2'),
+       url('../fonts/classrooms-interface.woff?33839631') format('woff'),
+       url('../fonts/classrooms-interface.ttf?33839631') format('truetype'),
+       url('../fonts/classrooms-interface.svg?33839631#classrooms-interface') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'classrooms-interface';
+    src: url('../font/classrooms-interface.svg?34857618#classrooms-interface') format('svg');
+  }
+}
+*/
+ 
+ [class^="classrooms-"]:before, [class*=" classrooms-"]:before {
+  font-family: "classrooms-interface";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.classrooms-down-open-big:before { content: '\e800'; } /* '' */
+.classrooms-left-open-big:before { content: '\e801'; } /* '' */
+.classrooms-right-open-big:before { content: '\e802'; } /* '' */
+.classrooms-up-open-big:before { content: '\e803'; } /* '' */
+.classrooms-basket:before { content: '\e804'; } /* '' */
+.classrooms-search:before { content: '\e805'; } /* '' */
+.classrooms-down-dir:before { content: '\e806'; } /* '' */
+.classrooms-left-dir:before { content: '\e807'; } /* '' */
+.classrooms-right-dir:before { content: '\e808'; } /* '' */
+.classrooms-up-dir:before { content: '\e809'; } /* '' */
+.classrooms-down-open:before { content: '\e80a'; } /* '' */
+.classrooms-left-open:before { content: '\e80b'; } /* '' */
+.classrooms-right-open:before { content: '\e80c'; } /* '' */
+.classrooms-up-open:before { content: '\e80d'; } /* '' */
+.classrooms-menu:before { content: '\e80e'; } /* '' */
+.classrooms-users:before { content: '\e80f'; } /* '' */
+.classrooms-publish:before { content: '\e810'; } /* '' */
+.classrooms-trash:before { content: '\e811'; } /* '' */
+.classrooms-bell:before { content: '\e812'; } /* '' */
+.classrooms-cog:before { content: '\e813'; } /* '' */
+.classrooms-plus-circled:before { content: '\e814'; } /* '' */
+.classrooms-dot-3:before { content: '\e815'; } /* '' */
