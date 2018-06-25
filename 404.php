@@ -20,7 +20,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body class=" ">
+    <body>
         <a id="start"></a>
         <div class="nav-container">
             <div class="bar bar--sm visible-xs">
